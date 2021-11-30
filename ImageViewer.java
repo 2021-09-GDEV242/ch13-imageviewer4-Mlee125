@@ -247,6 +247,7 @@ public class ImageViewer
         filterList.add(new LighterFilter("Lighter"));
         filterList.add(new ThresholdFilter("Threshold"));
         filterList.add(new FishEyeFilter("Fish Eye"));
+        
         // Color filters
         filterList.add(new BlueChannelFilter("Blue Channel"));
         filterList.add(new BlueTintFilter("Blue Tint"));
@@ -254,6 +255,10 @@ public class ImageViewer
         filterList.add(new GreenTintFilter("Green Tint"));
         filterList.add(new RedChannelFilter("Red Channel"));
         filterList.add(new RedTintFilter("Red Tint"));
+        
+        //Warhol Filters
+        filterList.add(new flippedWarholFilter("Flipper Warhol Filter"));
+        filterList.add(new WarholFilter("Warhol Filter"));
        
         return filterList;
     }
